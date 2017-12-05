@@ -1,0 +1,4 @@
+﻿  Main.cpp
+c:\users\s179071\source\repos\game-math\generics\templates\main.cpp(105): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Templates.vcxproj -> C:\Users\s179071\Source\Repos\Game-Math\Generics\Debug\Templates.exe
+  Templates.vcxproj -> C:\Users\s179071\Source\Repos\Game-Math\Generics\Debug\Templates.pdb (Partial PDB)
