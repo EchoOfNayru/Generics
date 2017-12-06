@@ -44,5 +44,11 @@
     <ClInclude Include="tLinkedListDouble.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="algoritms.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Iterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

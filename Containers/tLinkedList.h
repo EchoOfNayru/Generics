@@ -33,6 +33,16 @@ public:
 		}
 	};
 
+	iterator<tLinkedList<< T >> begin()
+	{
+		return iterator<tLinkedList<< T >> (*this, 0);
+	}
+
+	iterator<tLinkedList<T>> end()
+	{
+		return iterator<tLinkedList<T>>(*this, size);
+	}
+
 	void append(T value) 
 	{
 		intLinkedListNode* newNode = new intLinkedListNode;

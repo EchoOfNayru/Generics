@@ -1,5 +1,9 @@
 #pragma once
 
+#include <cassert>
+#include <cstring>
+#include "Iterator.h"
+
 template<typename T>
 class tVector
 {
@@ -18,6 +22,16 @@ public:
 	{
 		delete[] data;
 	};
+
+	iterator<tVector<<T>> begin() 
+	{
+		return iterator<tVector<<T>>(*this, 0);
+	}
+
+	iterator<tVector<T>> end() 
+	{
+		return iterator<tVector<T>>(*this, size);
+	}
 
 	T &operator[](size_t idx)
 	{
